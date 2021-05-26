@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+:root {
+    font-size: calc(0.5em + 0.75vw);
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+/*body * + * {*/
+/*    margin-top: 1.5em;*/
+/*}*/
+ .container {
+     text-align: center;
+     margin: 0 auto;
+ }
